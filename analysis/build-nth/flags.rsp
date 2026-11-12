@@ -1,0 +1,14 @@
+-O2
+-flto
+-Wall
+-Wextra
+-Wconversion
+-Wsign-conversion
+-Wno-unused-parameter
+-Wno-sign-compare
+-Wno-unused-function
+-IC:/Users/walleo/Downloads/GhostLock-HonorFne/analysis/ghostlock-app/src/core
+-DTARGET_CONFIG_H=\"kernel/target.h\"
+-std=c++23
+-fno-rtti
+-D__BIONIC_NO_PAGE_SIZE_MACRO

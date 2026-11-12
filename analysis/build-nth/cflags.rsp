@@ -1,0 +1,6 @@
+-O2
+-Wall
+-Wextra
+-std=gnu11
+-D__BIONIC_NO_PAGE_SIZE_MACRO
+-IC:/Users/walleo/Downloads/GhostLock-HonorFne/analysis/ghostlock-app/src/core
